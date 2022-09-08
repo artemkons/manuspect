@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/konstantinov050701gmail.com/.nvm/versions/node/v16.16.0/bin/node /Users/konstantinov050701gmail.com/.node/corepack/yarn/1.22.15/bin/yarn.js init
+
+PATH: 
+  /Users/konstantinov050701gmail.com/.nvm/versions/node/v16.16.0/bin:/Users/konstantinov050701gmail.com/Library/Python/3.8/bin:/Users/konstantinov050701gmail.com/development/flutter/bin:/usr/local/bin:/Users/konstantinov050701gmail.com/.emacs.d/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/Users/konstantinov050701gmail.com/.node/corepack/yarn/1.22.15/lib/cli.js:137145:13)
+      at Interface.emit (node:events:527:28)
+      at Interface._ttyWrite (node:readline:1081:16)
+      at ReadStream.onkeypress (node:readline:288:10)
+      at ReadStream.emit (node:events:527:28)
+      at emitKeys (node:internal/readline/utils:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
+      at ReadStream.emit (node:events:527:28)
+      at addChunk (node:internal/streams/readable:315:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
