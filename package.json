@@ -9,7 +9,8 @@
     "start:web": "npx lerna run start --scope=manuspect-web"
   },
   "workspaces": [
-    "apps/*"
+    "apps/*",
+    "packages/*"
   ],
   "devDependencies": {
     "lerna": "^5.5.0",
