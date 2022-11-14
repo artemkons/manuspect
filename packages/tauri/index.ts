@@ -1,4 +1,4 @@
-import { from, map, concatMap, filter } from "rxjs"
+import { from, map, concatMap, filter, catchError, of } from "rxjs"
 import { prop, identity } from "ramda"
 
 import { Command } from "@tauri-apps/api/shell"
@@ -64,13 +64,19 @@ const findFile = async (
 }
 
 const kernelSpecsObs = from(getJupyterCommonDirs()).pipe(
+
   map(prop("data")),
-  concatMap((dirs) => dirs.map((dir) => findFile(dir, "kernel.json"))),
+  concatMap((dirs) => dirs ? dirs
+            .map((dir) => findFile(dir, "kernel.json") : throw new Error)),
   // wait until promises will be resolved
   concatMap(identity),
   filter(isFileEntryExists),
   map((specsJSON) => readTextFile(specsJSON.path)),
   concatMap(identity),
-  map<string, KernelSpecs>((jsonStr) => JSON.parse(jsonStr))
+  map<string, KernelSpecs>((jsonStr) => JSON.parse(jsonStr)),
+  catchError((err) => {
+      console.log(err)
+      return of({})
+  })
 )
 kernelSpecsObs.subscribe(console.log)
