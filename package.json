@@ -5,7 +5,6 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start:desktop": "concurrently \"yarn run start:web\" \"npx lerna run start --scope=manuspect-desktop\"",
     "start:web": "npx lerna run start --scope=manuspect-web"
   },
   "workspaces": [
