@@ -4,3 +4,6 @@
 [submodule "apps/frontend"]
 	path = apps/frontend
 	url = git@github.com:artemkons/manuspect-frontend.git
+[submodule "packages/ui-api"]
+	path = packages/ui-api
+	url = git@github.com:artemkons/manuspect-ui-api.git
