@@ -1,6 +1,6 @@
 [submodule "packages/ipynb-components"]
 	path = packages/ipynb-components
 	url = git@github.com:artemkons/manuspect-ipynb-components.git
-[submodule "applications/frontend"]
-	path = applications/frontend
+[submodule "apps/frontend"]
+	path = apps/frontend
 	url = git@github.com:artemkons/manuspect-frontend.git
