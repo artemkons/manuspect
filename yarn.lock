@@ -19242,9 +19242,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"manuspect-web@workspace:apps/web":
+"manuspect-web@workspace:apps/frontend":
   version: 0.0.0-use.local
-  resolution: "manuspect-web@workspace:apps/web"
+  resolution: "manuspect-web@workspace:apps/frontend"
   dependencies:
     "@chakra-ui/react": ^1.6.9
     "@emotion/react": ^11.4.1
@@ -26909,9 +26909,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tauri@workspace:*, tauri@workspace:packages/tauri":
+"tauri@workspace:*, tauri@workspace:packages/tauri-api":
   version: 0.0.0-use.local
-  resolution: "tauri@workspace:packages/tauri"
+  resolution: "tauri@workspace:packages/tauri-api"
   dependencies:
     "@tauri-apps/api": ^1.1.0
     ramda: ^0.28.0
@@ -27614,21 +27614,21 @@ __metadata:
 
 "typescript@patch:typescript@^3 || ^4#~builtin<compat/typescript>, typescript@patch:typescript@^4.4.4#~builtin<compat/typescript>":
   version: 4.8.2
-  resolution: "typescript@patch:typescript@npm%3A4.8.2#~builtin<compat/typescript>::version=4.8.2&hash=f456af"
+  resolution: "typescript@patch:typescript@npm%3A4.8.2#~builtin<compat/typescript>::version=4.8.2&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 6f49363af8af2fe480da1d5fa68712644438785208b06690a3cbe5e7365fd652c3a0f1e587bc8684d78fb69de3dde4de185c0bad7bb4f3664ddfc813ce8caad6
+  checksum: 5cb0f02f414f5405f4b0e7ee1fd7fa9177b6a8783c9017b6cad85f56ce4c4f93e0e6f2ce37e863cb597d44227cd009474c9fbd85bf7a50004e5557426cb58079
   languageName: node
   linkType: hard
 
 "typescript@patch:typescript@^4.8.4#~builtin<compat/typescript>":
   version: 4.8.4
-  resolution: "typescript@patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=f456af"
+  resolution: "typescript@patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 563a0ef47abae6df27a9a3ab38f75fc681f633ccf1a3502b1108e252e187787893de689220f4544aaf95a371a4eb3141e4a337deb9895de5ac3c1ca76430e5f0
+  checksum: 301459fc3eb3b1a38fe91bf96d98eb55da88a9cb17b4ef80b4d105d620f4d547ba776cc27b44cc2ef58b66eda23fe0a74142feb5e79a6fb99f54fc018a696afa
   languageName: node
   linkType: hard
 

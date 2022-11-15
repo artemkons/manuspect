@@ -5,7 +5,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start:web": "npx lerna run start --scope=manuspect-web"
+    "start:web": "npx lerna run start --scope=manuspect-web",
+    "start:desktop": "npx lerna run start:desktop --scope=manuspect-web"
   },
   "workspaces": [
     "apps/*",
