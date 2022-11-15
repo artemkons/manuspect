@@ -1,0 +1,3 @@
+[submodule "applications/web"]
+	path = applications/web
+	url = git@github.com:artemkons/manuspect-frontend.git
