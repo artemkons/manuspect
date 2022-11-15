@@ -1,3 +1,6 @@
 [submodule "applications/web"]
 	path = applications/web
 	url = git@github.com:artemkons/manuspect-frontend.git
+[submodule "packages/ipynb-components"]
+	path = packages/ipynb-components
+	url = git@github.com:artemkons/manuspect-ipynb-components.git
